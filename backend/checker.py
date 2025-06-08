@@ -57,9 +57,9 @@ def check_similarity(idea: str,
 
 
 def web_search(query ):
-    apikey = "AIzaSyDks5Mc5A69x7tLwXPQ_iEwJ7GH74_IgKY"
+    apikey = "your api key "
 
-    cx = "94c65b7f35b65483e"
+    cx = "your cx
     url = "https://www.googleapis.com/customsearch/v1"
     params = {
         "key" : apikey,
@@ -85,7 +85,7 @@ def web_search(query ):
 
 
 def generate_tip(idea):
-    genai.configure(api_key="AIzaSyAkxLjHjHasKBjiKfQnrQHEWDzL35WA8MA")
+    genai.configure(api_key="your api key ")
     
     model = genai.GenerativeModel("models/gemini-1.5-flash")  # Use the appropriate model name
     print(idea)
