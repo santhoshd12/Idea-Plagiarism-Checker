@@ -56,31 +56,31 @@ cd backend
 
 pip install -r requirements.txt
 
-Run the Flask server:
+    Run the Flask server:
 
-python app.py
+    python app.py
 
 The backend will be running at:
 
-  http://localhost:5000
+    http://localhost:5000
 
 🖼️ Running the Frontend (React)
 
 Navigate to frontend:
 
-cd idea-plagiarism-checker
+    cd idea-plagiarism-checker
 
   Install frontend dependencies:
 
-npm install
+    npm install
 
   Run the React app:
 
-npm start
+    npm start
 
 The frontend will be running at:
 
-http://localhost:3000
+    http://localhost:3000
 
 🔍 Example Use Cases
 
